@@ -1,0 +1,32 @@
+.container{
+    padding: 6rem 4rem;
+    background-color: #1B262C;
+    box-shadow: inset 0px 30px 20px rgba(26, 26, 26, 0.25)
+}
+
+.innerWrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.listWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listWrapper>div{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 760px) {
+    .listWrapper>div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        padding: 6rem 2rem;
+    }
+}

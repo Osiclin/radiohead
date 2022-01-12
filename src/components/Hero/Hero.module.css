@@ -1,0 +1,38 @@
+.container{
+    padding: 0rem 4rem;
+}
+
+.innerWrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 841px;
+}
+
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 2rem;
+}
+
+.icon:first-child{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .container, .leftSection{
+        padding: 0rem;
+    }
+
+    .leftSection{
+        padding: 8rem 2rem;
+    }
+
+    .innerWrapper{
+        height: unset;
+    }
+}

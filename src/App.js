@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Featured from './components/Featured/Featured';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Partners from './components/Partners/Partners';
+import Playlist from './components/Playlist/Playlist';
+import Radiohead from './components/Radiohead/Radiohead';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Hero/>
+      <Partners/>
+      <Featured/>
+      <Playlist/>
+      <Radiohead/>
+      <Footer/>
     </div>
   );
 }
