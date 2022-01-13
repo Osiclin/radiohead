@@ -58,9 +58,9 @@ const List = ({title, item}) => {
     return(
         <div>
             <div style={{color: grey, fontSize: '2rem'}}>{title}</div>
-            <ul style={{listStyle: 'none', padding: 0, fontSize: '1.5rem', color: white}}>
+            <ul style={{listStyle: 'none', padding: 0, fontSize: '1.2rem', color: white}}>
                 {
-                    item.map((list, i) => <li >{list}</li>)
+                    item.map((list, i) => <li key={i} style={{marginBottom: '.5rem'}}>{list}</li>)
                 }
             </ul>
         </div>

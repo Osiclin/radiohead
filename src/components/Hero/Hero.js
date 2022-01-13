@@ -35,10 +35,10 @@ export default function Hero() {
                         </div>
                     </div>
                     <div>
-                        <div style={{position: 'absolute', overflow: 'hidden', bottom: -4, left: '500px'}}>
+                        <div style={{position: 'absolute', overflow: 'hidden', bottom: -5, left: '500px'}}>
                             <img src='/images/Hero/3.png' className={styles.images} width='453px' height='439px' alt='apple store' />
                         </div>
-                        <div style={{position: 'absolute', overflow: 'hidden', bottom: -4, left: '910px'}}>
+                        <div style={{position: 'absolute', overflow: 'hidden', bottom: -5, left: '910px'}}>
                             <img src='/images/Hero/4.png' className={styles.images} width='454px' height='481px' alt='google store' />
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function Hero() {
                         <div style={{position: 'absolute', overflow: 'hidden', top: '220px', left: '1380px'}}>
                             <img src='/images/Hero/5.png' className={styles.images} width='318px' height='552px' alt='apple store' />
                         </div>
-                        <div style={{position: 'absolute', overflow: 'hidden', bottom: -4, left: '1100px'}}>
+                        <div style={{position: 'absolute', overflow: 'hidden', bottom: -5, left: '1100px'}}>
                             <img src='/images/Hero/6.png' className={styles.images} width='453px' height='127px' alt='apple store' />
                         </div>
                     </div>
