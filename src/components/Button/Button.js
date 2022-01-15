@@ -3,8 +3,8 @@ export default function Button({name, pr, pl, mr, mb, bgColor, color}) {
         <button 
             style={{
                 width: 'max-content',
-                paddingTop: '.5rem',
-                paddingBottom: '.5rem',
+                paddingTop: '1rem',
+                paddingBottom: '1rem',
                 paddingRight: pr,
                 paddingLeft: pl,
                 outline: 0,

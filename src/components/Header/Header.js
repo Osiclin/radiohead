@@ -23,15 +23,15 @@ export default function Header() {
                     </ul>
                     <Button
                         name='Sign In'
-                        pr='1rem'
-                        pl='1rem'
+                        pr='1.5rem'
+                        pl='1.5rem'
                         mr='2rem'
                         bgColor='#7971E9'
                     />
                     <Button
                         name='Sign Up'
-                        pr='1rem'
-                        pl='1rem'
+                        pr='1.5rem'
+                        pl='1.5rem'
                     />
                 </div>
                 <div className={styles.hamburger}>

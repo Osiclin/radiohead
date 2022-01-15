@@ -15,8 +15,8 @@ export default function Hero() {
                     />
                     <Button
                         name='Try it free'
-                        pr='1.5rem'
-                        pl='1.5rem'
+                        pr='2rem'
+                        pl='2rem'
                         mb='2rem'
                         bgColor='#7971E9'
                     />
